@@ -33,6 +33,7 @@ const Navbar: FC<NavbarProps> = ({ links }) => (
                 <a className={s.link}>{l.label}</a>
               </Link>
             ))}
+            <a className={s.link} href="https://checkout.headless-msf-demo.shop/checkout">Headless channel BC checkout</a>
           </nav>
         </div>
         {process.env.COMMERCE_SEARCH_ENABLED && (
